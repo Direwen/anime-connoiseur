@@ -1,0 +1,691 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
+}
+
+html{
+  		scroll-behavior: smooth;
+  	}
+
+
+body{
+	background-color:#011024;
+	
+}
+
+nav{
+	margin:0;
+
+}
+
+#header-nav{
+	border:none;
+	border-radius:0;
+	position:relative;
+	background-color:#011024;
+	color:#6f80a0;
+	border:none;
+		outline:none;
+}
+
+.navbar-brand{
+	margin-top:0px;
+	margin-bottom:2px;
+	margin-right:auto;
+	margin-left:0;
+}
+
+#nav-list{
+		margin-top:10px;
+
+	}
+
+	#nav-list a{
+		color:#636664;
+		text-transform:uppercase;
+		font-size:1.3em;
+		text-align:center;
+		letter-spacing: 5px;
+		transition: all .5s ease;
+	}
+
+	#nav-list a:hover{
+		color:#7e94bb;
+		/*background:#000;
+		border-radius:30%;*/
+		font-size:1.6em;
+		letter-spacing: 9px;
+	}
+
+	#active-one{
+		background-color:rgba(135, 159, 201, .4);
+		border-radius:0 30% 0 30%;
+		transition: all .3s ease;
+	}
+
+	#active-one a ,#active-one a:hover{
+		color:#fff;
+		
+	}
+	
+	#active-one:hover{
+		background-color:rgba(135, 159, 201, .9);
+	}
+
+	.navbar-toggle{
+		margin-top:48px;
+
+		outline:none;
+		border:none;
+		border-radius: 50%;
+		background-color:#fff; 
+		
+	}
+
+	#nav-list{
+		vertical-align: center;
+
+	}
+
+	#nav-list li {
+		padding:10px;
+
+	}
+
+	/*.dropdown{
+		position:absolute;
+	}
+
+
+/* main content */
+
+#main-content{
+
+	background-image:url('https://wallpaperaccess.com/full/349969.jpg');
+
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	outline:none;
+	height:500px;
+	
+}
+
+
+#welcome{
+	
+	margin-top:100px;
+	
+	background-color:rgba(0,0,0,.5);
+	border:1px solid rgba(0,0,0,.5);
+	 border-radius: 30px;
+	 position:relative;
+	padding:15px;
+	margin-left:5px;
+}
+
+#welcome h2{
+	padding:5px;
+	margin-top:15px;
+	color:#879fc9;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-shadow: 6px 6px 5px ;
+}
+
+#reason{
+	font-style: italic;
+	text-indent: 35px;
+	margin-top:30px;
+	color:#fff;
+	padding:22px;
+	line-height:25px;
+	text-align:center;
+}
+
+#btn{
+	font-size:1.5em;
+	position: relative;
+	padding:10px;
+	
+	float:right;
+	border:2px solid #fff;
+	margin-bottom:20px;
+	border-radius:20%;
+	color:#fff;
+	transition:all .4s ease;
+	text-decoration: none;
+}
+
+#btn:hover{
+	font-size:1.9em;
+	color:#879fc9;
+	border:2px solid #879fc9;
+}
+
+
+
+
+
+/*#chibi-greeting{
+
+
+	 position:relative;
+	margin-top:90px;
+	margin-bottom:20px;
+	padding-left:15%;
+
+}*/
+
+#chibi{
+	width:250px;
+	height:300px;
+	 margin-left:15%;
+	margin-top:90px;
+	margin-bottom:20px;
+}
+/* last page*/
+#quotes{
+	width:100%;
+	 background-color:#6c82a8;
+  color:#011024;
+  text-align:center;
+  border-left:10px solid #fff;
+   border-right:10px solid #fff;
+}
+
+
+
+
+#recommend-section{
+	background-image:url('photo/anime11.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+
+	
+}
+
+
+
+#bg-container{
+	background-color:#011024;
+	margin:25px;
+	padding:10px;
+	color:#fff;
+	border-radius: 10%;
+	border-bottom:4px solid #fff;
+	width:auto;
+}
+
+#row2{
+	margin-top: 150px;
+}
+
+#head 	{
+	text-align:center;
+
+}
+
+
+#web-list{
+
+	background-color: rgba(108, 130, 168, .8);
+	text-align: center;
+	padding:5px;
+	border-radius:5%;
+}
+
+#web-list ul{
+	list-style: none;
+	line-height: 35px;
+}
+
+#web-list ul li a{
+	color:#011024;
+	letter-spacing: 2px;
+	transition:all .3s ease;
+	text-decoration: none;
+}
+
+#web-list ul li a:hover{
+	font-size:1.8em;
+}
+
+#web-list ul li a:active{
+	color:lightgreen;
+}
+
+#top10{
+	background-color:#011024;
+	margin:25px;
+	width:auto;
+	padding:10px;
+	color:#fff;
+	border-radius: 10%;
+	border-bottom:4px solid #fff;
+	position:relative;
+}
+
+#top10 h3{
+	text-align: center;
+	margin-bottom:25px;
+	overflow: hidden;
+
+}
+
+#anime-list{
+	text-align: left;
+	 list-style-position: inside;
+	margin-left:40px;
+	font-size:1.3em;
+}
+
+#anime-list ol a{
+	color:#6c82a8;
+	text-decoration: none;
+	transition:all .2s ease;
+}
+
+#anime-list ol a:hover{
+	letter-spacing: 3px;
+}
+
+#anime-list ol a:active{
+	color:lightgreen;
+}
+
+
+
+#developer {
+	margin:25px;
+	margin-top:40px;
+	border-bottom:2px solid white;
+	color:#fff;
+	border-radius: 5%;
+	padding:10px;
+}
+
+#call{
+	margin-top:15px;
+	font-size:1.2em;
+	color:#fff;
+	margin-bottom: 20px
+}
+
+#call a{
+	color:#fff;
+}
+
+/* CSS of anime list page starts here */
+#list-container2{
+	background-image: url('photo/anime11.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+#anime-genre-header{
+	text-align: center;
+	
+	
+}
+
+#anime-genre-header span h1{
+	/*background-color:#fff;  blue black = #011024*/
+	color:#fff;
+	letter-spacing: 3px;
+	
+
+}
+
+#card-container{
+	
+	padding:15px;
+	float:left;
+}
+
+.card{
+	background-color:rgba(0, 0, 0, .5);
+	border-bottom:5px solid #6c82a8;
+	border-radius: 4%;
+	padding:20px;
+}
+
+.card-img-top{
+	border-bottom:6px solid #fff;
+	border-radius:5%;
+}
+
+.card-body{
+	color:#fff;
+	text-align:center;
+}
+
+#watch-btn{
+	color:#fff;
+	background-color: #6c82a8;
+	text-transform: uppercase;
+	width:100%;
+	transition:all .4s ease;
+}
+
+#watch-btn:hover , #watch-btn:active{
+	width:50%;
+
+background: linear-gradient(328deg, rgba(9,9,121,1) 0%, rgba(108,130,168,1) 100%);
+
+}
+
+
+.gotopbtn{
+	position: fixed;
+	/*width:50px;*/
+	width:auto;
+	padding:0;
+	bottom:40px;
+	right:50px;
+	
+	
+	text-align: center;
+	
+
+	color:#fff;
+	font-size: 40px;
+	border-radius: 20%;
+	transition: all .2s ease;
+
+}
+
+.gotopbtn:hover{
+	
+	color:#6fe890;
+}
+
+/* CONTACT PAGE */
+#contact-container{
+
+}
+#gif-container{
+	/*background-image: url('photo/byebye.gif');
+	border:1px solid #c45a6c;*/
+	padding:0px;
+	border-radius:10%;
+}
+
+#gif-container img{
+	width:100%;
+}
+
+#label-name{
+	color:#fff;
+}
+
+/*#first-section{
+	background-color: lightgreen;
+	padding:20px;
+}
+
+#first-section h2{
+	font-size:25px;
+}*/
+
+.contact-form{
+	border:2px solid lightpink;
+	padding:20px;
+	border-radius:2%;
+}
+
+#email ,#name, #comment{
+	border:none;
+	border-right:20px solid #fcdbe4;
+	transition:all .4s ease;
+	outline:none;
+
+	color:#011024;
+}
+
+
+#email:hover ,#name:hover , #comment:hover, #email:focus ,#name:focus , #comment:focus {
+	border-right:20px solid #c45a6c;
+	background-color: #f2ceda;
+}
+
+#submit-btn{
+	width:100%;
+	background-color: #f2ceda;
+	color:#c45a6c !important;
+	outline:none;
+	font-weight: bold;
+	border:none;
+	transition:all .3s ease;
+}
+
+#submit-btn:hover{
+	background-color:#c45a6c;
+	color:#fff !important;
+}
+
+
+
+/*************for large devices*************/
+		@media (min-width:1200px){
+			#bg-container{
+				width:50%;
+			}
+			#top10{
+				width:40%;
+			}
+
+			
+
+		}
+
+
+		/*************for medium devices*************/
+		@media (min-width:992px) and (max-width:1199px) {
+
+			#row2{
+	margin-top: 100px;
+}
+
+			#top10{
+				margin-left:20%;
+				width:60%;
+			}
+
+			#bg-container{
+				margin-left:20%;
+				width:60%;
+			}
+
+			#developer{
+				margin-top:10px;
+			}
+
+			.card-img-top{
+				width:200px;
+
+			}
+
+			#gif-container{
+				margin-top:8%;
+				
+			}
+		}
+
+
+		/*************for small devices*************/
+		@media (min-width:768px) and (max-width:991px) {
+
+				#row2{
+			margin-top: 100px;
+			}
+
+			#top10{
+				margin-left:17%;
+				width:70%;
+			}
+			#bg-container{
+				margin-left:17%;
+				width:70%;
+			}
+
+
+			#developer {
+				margin-top:0;
+			}
+
+			#gif-container{
+				margin-left:25%;
+				
+			}
+
+			#form-container{
+				margin-top:45px;
+			}
+			
+		}
+
+		/************for extra-small devices************/
+	
+		@media  (max-width:767px) {
+
+			#main-content{
+				margin-top:-7%;
+			}
+
+			#welcome h2{
+				font-size:22px;
+			}
+
+			#welcome{
+				margin-left:20px;
+				margin-right:20px;
+				margin-bottom:20px;
+				
+			}
+
+			#btn{
+				margin-top:20px;
+
+			}
+
+			#row2{
+	margin-top: 50px;
+}
+
+#developer {
+				margin-top:0;
+			}
+
+			#my_logo{
+				width:140px;
+				height:140px;
+			}
+
+			#card-container{
+				
+				margin: 25%;
+				margin-bottom:14px;
+				margin-top: 14px;
+			}
+
+			#gif-container{
+				margin:5%;
+				
+			}
+			
+
+		}
+
+
+		@media  (max-width:554px){
+
+
+			#main-content{
+				padding:20px;
+			}
+
+			#welcome{
+				margin-top:3px;
+			}
+
+			#welcome h2{
+				font-size:19px;
+			}
+
+
+				#btn{
+				margin-top:40px;
+				margin-right:30px;
+			}
+
+			#developer {
+				margin-top:0;
+			}
+
+			#developer h4{
+				
+				font-size:.8em;
+			}
+
+			#call a{
+				font-size:.7em;
+			}
+
+			#my_logo{
+				width:100px;
+				height:100px;
+			}
+
+			#quotes p{
+				font-size:.7em;
+			}
+
+			#quotes h2{
+				font-size:1.4em;
+			}
+
+			#card-container{
+				
+				margin: 20%;
+				margin-bottom:14px;
+			}
+
+			.card-img-top{
+				width:200px;
+				height:200px;
+			}
+
+		}
+
+		@media  (max-width:385px){
+
+			.card-img-top{
+				width:190px;
+				height:190px;
+			}
+
+			#card-container{
+				
+				margin: 12%;
+				margin-bottom:10px;
+			}
+
+			.gotopbtn{
+				
+	font-size:25px;
+	bottom:10px;
+	right:20px;
+	
+	
+			}
+		}
+
+		
